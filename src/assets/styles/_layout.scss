@@ -1,0 +1,338 @@
+﻿/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  font-size: 10px;
+  color: $font-color;
+  background-color: $grey-background;
+  padding: 0em;
+  font-family: $font-stack;
+  font-weight: 400;
+}
+
+p,
+a {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0em;
+  transition: all 0.2s ease;
+}
+
+p a {
+  font-size: 1em;
+}
+
+a,
+a:visited {
+  color: $link;
+}
+
+a:hover {
+  color: lighten($link, 12%);
+}
+
+.textContent {
+  p + p {
+    margin-top: 1.4em;
+  }
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 400;
+  line-height: 52px;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 0.4em 0px;
+}
+
+h4 {
+  margin: 1.2em 0em;
+  font-size: 1.5em;
+  color: $blue-bg;
+  font-weight: 300;
+}
+
+/* Layout */
+
+.header {
+  background-color: #610766;
+  //background-image: repeating-conic-gradient(at -120% 120%, rgba(255,255,255,.15) 0%, rgba(0,0,0,.3) 6%, rgba(255,255,255,.15) 12%), linear-gradient(243deg, #ce71f3 0%, #843df5 46%, #51d8f0 100%);
+  background-image: linear-gradient(
+    243deg,
+    #ce71f3 0%,
+    #843df5 46%,
+    #51d8f0 100%
+  );
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 6em;
+  box-shadow: inset 0px -4px 12px -6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 7.5em;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.main-layout {
+  flex-direction: column;
+}
+
+.wrap {
+  display: flex;
+  flex: 1;
+  min-width: 30em;
+  max-width: 96em;
+}
+
+.btn {
+  background-color: #0077b5;
+  border-radius: 50px;
+  color: #fff !important;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.25s ease;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: $link;
+  border: none;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.25s ease;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.linked-in {
+  background-color: #0077b5;
+  border-radius: 50px;
+  color: #fff !important;
+  padding: 0.4em 2em;
+  text-decoration: none;
+  margin: 2em;
+  display: inline-block;
+  transition: all 0.25s ease;
+}
+
+.raised {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24),
+    2px 2px 7px 1px rgba(0, 0, 0, 0.32);
+  transform: scale(1);
+  transition: all 0.15s ease;
+
+  &:hover {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.28), 7px 7px 14px rgba(0, 0, 0, 0.3);
+    transform: translate(-1px, -4px) scale(1.1);
+  }
+}
+
+.headerInner {
+  height: 7.5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+}
+
+.bubble {
+  width: 15em;
+  height: 15em;
+  background-image: url(../images/andrei.webp);
+  border-radius: 50%;
+  background-size: cover;
+  border: 2px solid #fff;
+  position: absolute;
+  bottom: -7.5em;
+  left: 50%;
+  margin-left: -7.5em;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.18),
+    2px 2px 7px 1px rgba(0, 0, 0, 0.24);
+}
+
+.section {
+  padding: 2em;
+}
+
+.sectionHeader {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+
+  a {
+    h2 {
+      text-decoration: underline;
+    }
+  }
+
+  .icon {
+    width: 5.2em;
+    height: 5.2em;
+    margin-right: 1em;
+    border-radius: 50%;
+    background-color: $blue-bg;
+    background-position: center;
+
+    &.linkIcon {
+      background-color: $link;
+      display: inline-block;
+
+      &:hover {
+        background-color: lighten($link, 12%);
+      }
+    }
+  }
+}
+
+.column {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #610766;
+  background-image: linear-gradient(43deg, #bb2fb2 0%, #610766 100%);
+  margin-top: 4em;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 8px 16px -6px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.top {
+  display: block;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: -24px;
+  background-color: $link;
+  border-radius: 50%;
+  cursor: pointer;
+  background-position: 50%;
+  background-image: url(../images/up.png);
+
+  &:hover {
+    background-color: lighten($link, 12%);
+  }
+}
+
+.experience {
+  padding: 2em 0em;
+  display: flex;
+  flex-direction: column;
+
+  & + .experience {
+    border-top: 1px solid #cfcfcf;
+  }
+}
+
+.link-container {
+  padding-top: 2em;
+}
+
+/* ==========================================================================
+   Over 460 width
+   ========================================================================== */
+@media screen and (min-width: 460px) {
+  h1 {
+    font-size: 3.2em;
+  }
+
+  h2 {
+    font-size: 2.2em;
+  }
+
+  .section_right .section {
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+  }
+}
+/* ==========================================================================
+   Over 720 width
+   ========================================================================== */
+@media screen and (min-width: 720px) {
+  .footer {
+    background-image: linear-gradient(
+      43deg,
+      #bb2fb2 0%,
+      #610766 46%,
+      #32aaf0 100%
+    );
+  }
+}
+/* ==========================================================================
+   Over 980 width
+   ========================================================================== */
+@media screen and (min-width: 800px) {
+  .wrap {
+    padding: 0 2em;
+
+    &.main-layout {
+      flex-direction: row;
+    }
+
+    .section_left,
+    .section_right {
+      display: inline-flex;
+      flex-direction: column;
+    }
+
+    .section_right {
+      flex: 1;
+      padding-left: 4em;
+
+      .section {
+        width: 100%;
+      }
+    }
+
+    .section {
+      padding: 3em 0em;
+    }
+
+    .section_left {
+      flex: 2;
+
+      .column {
+        width: 50%;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
