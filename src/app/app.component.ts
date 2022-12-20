@@ -9,8 +9,6 @@ import { ProfileService } from "./services/profile.service";
 export class AppComponent implements OnInit {
   profile: any;
 
-  showAllPositions: boolean = false;
-
   constructor(private profileService: ProfileService) {}
 
   ngOnInit() {
@@ -19,9 +17,5 @@ export class AppComponent implements OnInit {
     // draw all map polygons and markers
     // header image?
     // print stylesheet
-  }
-
-  toggleAllPositions() {
-    this.showAllPositions = !this.showAllPositions;
   }
 }

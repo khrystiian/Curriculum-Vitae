@@ -13,6 +13,6 @@ export class ToolsComponent implements OnInit {
   constructor(private toolsService: ToolsService) {}
 
   ngOnInit(): void {
-    this.tools = this.toolsService.getTools();
+    this.tools = this.toolsService.getAll();
   }
 }

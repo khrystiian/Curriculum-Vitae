@@ -1,0 +1,38 @@
+<div class="section">
+  <div class="sectionHeader">
+    <div class="icon"></div>
+    <h2>Personal Projects</h2>
+  </div>
+  <ng-container *ngIf="!showAll; else showAllProjects">
+    <ng-container *ngTemplateOutlet="showAvailableProjects"></ng-container>
+  </ng-container>
+  <ng-template #showAllProjects>
+    <ng-container *ngTemplateOutlet="showAvailableProjects"></ng-container>
+  </ng-template>
+  <div>
+    <button class="raised btn-secondary" (click)="toggleShowAll()">
+      {{ showAll ? "Show less" : "Show all" }}
+    </button>
+  </div>
+</div>
+
+<ng-template #showAvailableProjects>
+  <div
+    class="experience textContent"
+    *ngFor="let project of projects | available : showAll"
+  >
+    <h3>{{ project.title }}</h3>
+    <h4>
+      <span>
+        {{ project.tools }}
+      </span>
+      , {{ project.link }}, {{ project.city }}, {{ project.country }}
+    </h4>
+    <p>
+      {{ project.description }}
+    </p>
+    <div class="link-container">
+      <a [href]="project.link" target="_blank">{{ project.link }}</a>
+    </div>
+  </div>
+</ng-template>

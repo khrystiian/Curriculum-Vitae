@@ -5,14 +5,11 @@ import { default as JSONHobbies } from "../../../assets/json-data/hobbies.json";
   providedIn: "root",
 })
 export class HobbiesService {
-  private _hobbies: string[] = [];
+  public getAll(): string[] {
+    const result: string[] = [];
 
-  constructor() {
     const list = JSONHobbies.activities;
-    Array.from(list).forEach((hobby: string) => this._hobbies.push(hobby));
-  }
-
-  public get hobbies(): string[] {
-    return this._hobbies;
+    Array.from(list).forEach((hobby: string) => result.push(hobby));
+    return result;
   }
 }

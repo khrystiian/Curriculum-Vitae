@@ -1,0 +1,38 @@
+<div class="section">
+  <div class="sectionHeader">
+    <div class="icon"></div>
+    <h2>Education</h2>
+  </div>
+  <ng-container *ngIf="!showAll; else showAllProgrammes">
+    <ng-container *ngTemplateOutlet="showAvailableProgrammes"></ng-container>
+  </ng-container>
+  <ng-template #showAllProgrammes>
+    <ng-container *ngTemplateOutlet="showAvailableProgrammes"></ng-container>
+  </ng-template>
+  <div>
+    <button class="raised btn-secondary" (click)="toggleShowAll()">
+      {{ showAll ? "Show less" : "Show all" }}
+    </button>
+  </div>
+</div>
+
+<ng-template #showAvailableProgrammes>
+  <div
+    class="experience textContent"
+    *ngFor="let programme of programmes | available : showAll"
+  >
+    <h3>{{ programme.title }}</h3>
+    <h4>
+      <span>
+        {{ programme.school }}
+      </span>
+      , {{ programme.period }}, {{ programme.city }}, {{ programme.country }}
+    </h4>
+    <p *ngFor="let paragraph of programme.finalProject.description">
+      {{ paragraph }}
+    </p>
+    <div class="link-container" *ngFor="let link of programme.links">
+      <a [href]="link" target="_blank">{{ link }}</a>
+    </div>
+  </div>
+</ng-template>

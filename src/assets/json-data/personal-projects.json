@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "title": "Clean Architecture Pattern",
+      "description": "here comes description",
+      "link": "https://github.com/khrystiian/Clean-architecture",
+      "tools": ["C#", ".Net", "Web API", "Angular", "ElasticSearch", "SQL"],
+      "preview": [""]
+    },
+    {
+      "title": "Chat Web App",
+      "description": "here comes description",
+      "link": "https://github.com/khrystiian/SignalrChat",
+      "tools": ["C#", ".Net", "SignalR", "SQL"],
+      "preview": [""]
+    },
+    {
+      "title": "Stackoverflow Search",
+      "description": "here comes description",
+      "link": "https://github.com/khrystiian/Stackoverflow-search",
+      "tools": ["C#", ".Net", "Web API", "Angular", "ElasticSearch", "SQL"],
+      "preview": [""]
+    },
+    {
+      "title": "Send messages using Rabbit MQ",
+      "description": "here comes description",
+      "link": "https://github.com/khrystiian/RabbitMq-",
+      "tools": ["C#", ".Net", "RabbitMQ", "SQL"],
+      "preview": [""]
+    },
+    {
+      "title": "Personal Website",
+      "description": "here comes description",
+      "link": "https://github.com/khrystiian/Curriculum-Vitae",
+      "tools": ["Angular", "JSON", "HTML", "CSS"],
+      "preview": [""]
+    }
+  ]
+}

@@ -13,6 +13,6 @@ export class StrengthsComponent implements OnInit {
   constructor(private strengthsService: StrengthsService) {}
 
   ngOnInit(): void {
-    this.strengths = this.strengthsService.getStrengths();
+    this.strengths = this.strengthsService.getAll();
   }
 }

@@ -1,0 +1,41 @@
+<div class="section">
+  <div class="sectionHeader">
+    <div class="icon"></div>
+    <h2>Experience</h2>
+  </div>
+  <ng-container *ngIf="!showAll; else showAllPositions">
+    <ng-container *ngTemplateOutlet="showAvailablePositions"></ng-container>
+  </ng-container>
+  <ng-template #showAllPositions>
+    <ng-container *ngTemplateOutlet="showAvailablePositions"></ng-container>
+  </ng-template>
+  <div>
+    <button class="raised btn-secondary" (click)="toggleShowAll()">
+      {{ showAll ? "Show less" : "Show all" }}
+    </button>
+  </div>
+</div>
+
+<ng-template #showAvailablePositions>
+  <div
+    class="experience textContent"
+    *ngFor="let position of positions | available : showAll"
+  >
+    <h3>{{ position.title }}</h3>
+    <h4>
+      <a *ngIf="position.hasCompanyWebsite" [href]="position.companyWebsite">
+        {{ position.company }}
+      </a>
+      <span *ngIf="!position.hasCompanyWebsite">
+        {{ position.company }}
+      </span>
+      , {{ position.period }}
+    </h4>
+    <p *ngFor="let paragraph of position.description">
+      {{ paragraph }}
+    </p>
+    <div class="link-container" *ngFor="let link of position.links">
+      <a [href]="link" target="_blank">{{ link }}</a>
+    </div>
+  </div>
+</ng-template>

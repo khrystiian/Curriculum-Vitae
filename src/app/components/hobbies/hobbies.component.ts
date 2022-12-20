@@ -12,6 +12,6 @@ export class HobbiesComponent implements OnInit {
   constructor(private hobbiesService: HobbiesService) {}
 
   ngOnInit(): void {
-    this.activities = this.hobbiesService.hobbies;
+    this.activities = this.hobbiesService.getAll();
   }
 }

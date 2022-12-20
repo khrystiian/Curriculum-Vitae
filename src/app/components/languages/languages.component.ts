@@ -13,6 +13,6 @@ export class LanguagesComponent implements OnInit {
   constructor(private languageService: LanguageService) {}
 
   ngOnInit(): void {
-    this.languages = this.languageService.getLanguages();
+    this.languages = this.languageService.getAll();
   }
 }

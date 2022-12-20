@@ -6,7 +6,7 @@ import { default as JSONContacts } from "../../../assets/json-data/contact.json"
   providedIn: "root",
 })
 export class ContactService {
-  public getContactDetails(): Contact[] {
+  public getAll(): Contact[] {
     const result: Contact[] = [];
 
     const list = JSONContacts.contacts;

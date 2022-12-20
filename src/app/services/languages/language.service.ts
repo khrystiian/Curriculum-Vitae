@@ -8,7 +8,7 @@ import { CalculateColorService } from "../calculate-color/calculate-color.servic
 })
 export class LanguageService {
   constructor(private calculateColorService: CalculateColorService) {}
-  public getLanguages(): Language[] {
+  public getAll(): Language[] {
     const result: Language[] = [];
 
     const list = JSONLanguages.languages;

@@ -5,7 +5,7 @@ import { default as JSONIntro } from "../../../assets/json-data/intro.json";
   providedIn: "root",
 })
 export class IntroService {
-  public getIntro(): string[] {
+  public getAll(): string[] {
     const result: string[] = [];
 
     const list = JSONIntro.intro;

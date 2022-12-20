@@ -1,5 +1,6 @@
 {
   "projects": {
-    "andreiciobanucv": "andreiciobanucv"
+    "andreiciobanucv": "andreiciobanucv",
+    "default": "andreiciobanucv"
   }
 }

@@ -8,7 +8,7 @@ import { CalculateColorService } from "../calculate-color/calculate-color.servic
 })
 export class SoftSkillsService {
   constructor(private calculateColorService: CalculateColorService) {}
-  public getSkills(): Skill[] {
+  public getAll(): Skill[] {
     const result: Skill[] = [];
 
     const list = JSONSoftSkills.skills;

@@ -13,6 +13,6 @@ export class SoftSkillsComponent implements OnInit {
   constructor(private softSkillsService: SoftSkillsService) {}
 
   ngOnInit(): void {
-    this.skills = this.softSkillsService.getSkills();
+    this.skills = this.softSkillsService.getAll();
   }
 }

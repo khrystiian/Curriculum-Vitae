@@ -6,7 +6,7 @@ import { default as JSONStrengths } from "../../../assets/json-data/strengths.js
   providedIn: "root",
 })
 export class StrengthsService {
-  public getStrengths(): Strength[] {
+  public getAll(): Strength[] {
     const result: Strength[] = [];
 
     const list = JSONStrengths.strengths;

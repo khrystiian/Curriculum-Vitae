@@ -12,6 +12,6 @@ export class IntroComponent implements OnInit {
   constructor(private introService: IntroService) {}
 
   ngOnInit(): void {
-    this.intro = this.introService.getIntro();
+    this.intro = this.introService.getAll();
   }
 }

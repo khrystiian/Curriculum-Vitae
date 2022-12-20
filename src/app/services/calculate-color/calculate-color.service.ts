@@ -7,8 +7,6 @@ export class CalculateColorService {
   private readonly primaryColor = { red: 118, green: 224, blue: 194 };
   private readonly secondaryColor = { red: 37, green: 112, blue: 126 };
 
-  constructor() {}
-
   public calculateColor(percentage: number) {
     const rValue = Math.round(this.getRGBValue(percentage, RGBColor.Red));
     const gValue = Math.round(this.getRGBValue(percentage, RGBColor.Green));

@@ -1,0 +1,55 @@
+{
+  "programmes": [
+    {
+      "title": "Master's degree of Computer Science",
+      "school": "Aalborg University",
+      "city": "Aalborg",
+      "period": "September 2019 - June 2021",
+      "country": "Denmark",
+      "finalProject": {
+        "collabolation": "Colaboration with Volkswagen Group, Germany",
+        "description": [
+          "Investigate and write a research paper about technological countermeasures to passive fatique in drivers"
+        ],
+        "link": ""
+      }
+    },
+    {
+      "title": "Bachelor's degree of Software Development",
+      "school": "University College of Northern Denmark",
+      "city": "Aalborg",
+      "period": "September 2018 - June 2019",
+      "country": "Denmark",
+      "finalProject": {
+        "collabolation": "Colaboration with Treat Systems A/S, Denmark",
+        "description": [
+          "Design the main product Treat Essential to various platforms.",
+          "The architecture must handle huge volume of data, while granting large scale concept, being fully testable and maintainable over time"
+        ],
+        "link": ""
+      }
+    },
+    {
+      "title": "AP degree of Computer Science",
+      "school": "University College of Northern Denmark",
+      "city": "Aalborg",
+      "period": "September 2015 - February 2018",
+      "country": "Denmark",
+      "finalProject": {
+        "collabolation": "Colaboration with Betfray A/S, Denmark",
+        "description": [
+          "Design and implement of a new module for a social-betting platform, consisting in 1-vs-1 challenges and many-to-many competitions rewarded by real prizes, set by the company's sponsors"
+        ],
+        "link": ""
+      }
+    },
+    {
+      "title": "Mathematics - Informatics",
+      "school": "National College 'Garabet Ibraileanu'",
+      "city": "Iasi",
+      "period": "September 2015 - February 2018",
+      "country": "Romania",
+      "finalProject": null
+    }
+  ]
+}

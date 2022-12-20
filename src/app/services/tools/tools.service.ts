@@ -8,7 +8,7 @@ import { CalculateColorService } from "../calculate-color/calculate-color.servic
 })
 export class ToolsService {
   constructor(private calculateColorService: CalculateColorService) {}
-  public getTools(): Tool[] {
+  public getAll(): Tool[] {
     const result: Tool[] = [];
 
     const list = JSONTools.tools;
