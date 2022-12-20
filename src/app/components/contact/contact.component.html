@@ -1,0 +1,22 @@
+<div class="section">
+  <div class="sectionHeader group" *ngFor="let contact of contacts">
+    <ng-container *ngIf="!contact.hasLink; else contactWithLink">
+      <span>
+        <div
+          class="icon raised"
+          [ngStyle]="{ 'background-image': contact.iconSrc }"
+        ></div>
+        <h2>{{ contact.ref }}</h2>
+      </span>
+    </ng-container>
+    <ng-template #contactWithLink>
+      <a [href]="contact.ref" target="_blank">
+        <div
+          class="icon linkIcon raised"
+          [ngStyle]="{ 'background-image': contact.iconSrc }"
+        ></div>
+        <h2>{{ contact.label }}</h2>
+      </a>
+    </ng-template>
+  </div>
+</div>

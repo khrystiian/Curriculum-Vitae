@@ -6,10 +6,10 @@
       <div class="contact">
         <h2 style="margin-top: 0em; line-height: 1.4em">{{ profile.title }}</h2>
       </div>
-      <!--
-            <div class="column" style="padding-top: 1em;">
-                <a class="linked-in raised" href="{{profile.linkedIn}}">Connect</a>
-            </div>-->
+
+      <div class="column" style="padding-top: 1em">
+        <a class="linked-in raised" href="{{ profile.linkedIn }}">Connect</a>
+      </div>
     </div>
     <div class="bubble"></div>
   </div>
@@ -18,31 +18,9 @@
 <div class="main">
   <div class="wrap main-layout">
     <div class="section_left">
-      <div class="section">
-        <div class="textContent">
-          <p *ngFor="let paragraph of profile.intro">{{ paragraph }}</p>
-        </div>
-
-        <br /><br />
-        <h3>Relative strength</h3>
-        <p>Where do I provide most value?</p>
-        <div class="spectrums">
-          <div class="spectrumDiv" *ngFor="let zone of profile.zones">
-            <div class="spectrumCaption">
-              <p>{{ zone.startName }}</p>
-              <p>{{ zone.endName }}</p>
-            </div>
-            <div class="skillBar">
-              <div
-                [style.margin-left]="zone.start + '%'"
-                [style.margin-right]="zone.end + '%'"
-                class="focusInner"
-              ></div>
-            </div>
-            <p>{{ zone.description }}</p>
-          </div>
-        </div>
-      </div>
+      <app-intro></app-intro>
+      <br /><br />
+      <app-strengths></app-strengths>
 
       <div class="section">
         <div class="sectionHeader" style="margin-bottom: 0px">
@@ -113,98 +91,11 @@
     </div>
 
     <div class="section_right">
-      <div class="section">
-        <div class="sectionHeader group">
-          <div
-            class="icon"
-            style="background-image: url('/assets/images/icon_freetime.png')"
-          ></div>
-          <h2>Skills</h2>
-        </div>
-        <div>
-          <div class="column group">
-            <div *ngFor="let skill of profile.skills" class="skillTag">
-              {{ skill.name }}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section">
-        <div class="sectionHeader">
-          <div
-            class="icon"
-            style="background-image: url('/assets/images/skills.png')"
-          ></div>
-          <h2>Tools</h2>
-        </div>
-        <div class="column">
-          <div class="column group">
-            <div *ngFor="let tool of profile.tools" class="skillTag">
-              {{ tool.name }}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section">
-        <div class="sectionHeader group">
-          <div
-            class="icon"
-            style="background-image: url('/assets/images/lang.png')"
-          ></div>
-          <h2>Languages</h2>
-        </div>
-        <div>
-          <div class="column">
-            <div *ngFor="let lang of profile.languages" class="skill">
-              <p>{{ lang.name }}</p>
-              <div class="skillBar">
-                <div
-                  class="skillInner"
-                  [style.background-color]="lang.barColor"
-                  [style.width]="lang.rating + '%'"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" style="border-bottom: none">
-        <div class="sectionHeader group">
-          <div
-            class="icon"
-            style="background-image: url(../assets/images/activities.png)"
-          ></div>
-          <h2>Activities</h2>
-        </div>
-        <div>
-          <div class="column">
-            <h3 *ngFor="let activity of profile.activities">{{ activity }}</h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="section">
-        <div class="sectionHeader group">
-          <a
-            style="font-size: 1em"
-            href="https://github.com/khrystiian"
-            target="_blank"
-          >
-            <div
-              class="icon linkIcon raised"
-              style="
-                background-image: url('/assets/images/gh.png');
-                background-size: 80%;
-                background-repeat: no-repeat;
-              "
-            ></div>
-            <h2>GitHub</h2>
-          </a>
-        </div>
-      </div>
+      <app-soft-skills></app-soft-skills>
+      <app-tools></app-tools>
+      <app-languages></app-languages>
+      <app-hobbies></app-hobbies>
+      <app-contact></app-contact>
     </div>
   </div>
 </div>

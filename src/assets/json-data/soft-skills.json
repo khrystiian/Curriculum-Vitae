@@ -1,0 +1,48 @@
+{
+  "skills": [
+    {
+      "name": "Enthusiastic",
+      "rating": 100
+    },
+    {
+      "name": "Self-learning",
+      "rating": 100
+    },
+    {
+      "name": "Self-awareness",
+      "rating": 96
+    },
+    {
+      "name": "Accountability",
+      "rating": 89
+    },
+    {
+      "name": "Critical thinking",
+      "rating": 94
+    },
+    {
+      "name": "Ambitious",
+      "rating": 90
+    },
+    {
+      "name": "Decision making",
+      "rating": 78
+    },
+    {
+      "name": "Time management",
+      "rating": 84
+    },
+    {
+      "name": "Problem solving",
+      "rating": 90
+    },
+    {
+      "name": "Analytical",
+      "rating": 90
+    },
+    {
+      "name": "Curious",
+      "rating": 100
+    }
+  ]
+}

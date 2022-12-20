@@ -1,0 +1,22 @@
+.sectionHeader {
+  display: grid;
+
+  span {
+    display: flex;
+  }
+
+  span,
+  a {
+    font-size: 1em;
+  }
+
+  .icon {
+    width: 4.2em;
+    height: 4.2em;
+
+    &.linkIcon {
+      background-size: 80%;
+      background-repeat: no-repeat;
+    }
+  }
+}

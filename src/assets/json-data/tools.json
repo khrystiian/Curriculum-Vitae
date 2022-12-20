@@ -1,0 +1,40 @@
+{
+  "tools": [
+    {
+      "name": "Visual Studio",
+      "rating": 100
+    },
+    {
+      "name": "Visual Studio Code",
+      "rating": 100
+    },
+    {
+      "name": "MSSQL",
+      "rating": 100
+    },
+    {
+      "name": "Git",
+      "rating": 100
+    },
+    {
+      "name": "SourceTree",
+      "rating": 100
+    },
+    {
+      "name": "CMD/Power Shell",
+      "rating": 100
+    },
+    {
+      "name": "Office 365",
+      "rating": 100
+    },
+    {
+      "name": "Postman",
+      "rating": 100
+    },
+    {
+      "name": "Jira Attlasian",
+      "rating": 100
+    }
+  ]
+}

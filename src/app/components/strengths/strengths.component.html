@@ -1,0 +1,20 @@
+<div class="section">
+  <h3>Relative strength</h3>
+  <p>Where do I provide most value?</p>
+  <div class="spectrums">
+    <div class="spectrumDiv" *ngFor="let strength of strengths">
+      <div class="spectrumCaption">
+        <p>{{ strength.startName }}</p>
+        <p>{{ strength.endName }}</p>
+      </div>
+      <div class="skillBar">
+        <div
+          [style.margin-left]="strength.start + '%'"
+          [style.margin-right]="strength.end + '%'"
+          class="focusInner"
+        ></div>
+      </div>
+      <p>{{ strength.description }}</p>
+    </div>
+  </div>
+</div>

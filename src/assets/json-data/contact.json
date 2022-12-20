@@ -1,0 +1,29 @@
+{
+  "contacts": [
+    {
+      "label": "Address",
+      "ref": "Copenhagen, Denmark",
+      "hasLink": false
+    },
+    {
+      "label": "Phone Number",
+      "ref": "+45 9226 1608",
+      "hasLink": false
+    },
+    {
+      "label": "Email",
+      "ref": "a.ciobanu19@gmail.com",
+      "hasLink": true
+    },
+    {
+      "label": "Linkedin",
+      "ref": "https://www.linkedin.com/in/a-ciobanu/",
+      "hasLink": true
+    },
+    {
+      "label": "Github",
+      "ref": "https://github.com/khrystiian",
+      "hasLink": true
+    }
+  ]
+}

@@ -9,11 +9,6 @@ export class ProfileService {
       phone: "+45 9226 1608",
       email: "a.ciobanu@gmail.com",
       address: "Copenhagen, Denmark",
-      intro: [
-        "I focus on solving problems over implementing features!",
-        "I am a designer using code as my primary tool. I build software, using the technologies that enable me to do so most efficiently. I always think about the big picture before I start coding - it is not enough to be precise, accuracy is needed too in order to build the right solution.",
-        "I focus on delivering great software that not only works well for the users, but ties in well with the overall business goals. I prefer to work closely with users to understand the challenges they face and come up with the best solutions in collaboration with them.",
-      ],
       linkedIn: "https://www.linkedin.com/in/a-ciobanu/",
       positions: [
         {
@@ -59,121 +54,6 @@ export class ProfileService {
           ],
           links: [],
         },
-      ],
-      skills: [
-        {
-          name: "UX",
-          rating: 100,
-        },
-        {
-          name: "Problem solving",
-          rating: 100,
-        },
-        {
-          name: "Usability",
-          rating: 96,
-        },
-        {
-          name: "Web development",
-          rating: 89,
-        },
-        {
-          name: "Interaction design",
-          rating: 82,
-        },
-        {
-          name: "Graphic design",
-          rating: 70,
-        },
-        {
-          name: "Performance",
-          rating: 68,
-        },
-        {
-          name: "Responsive",
-          rating: 94,
-        },
-        {
-          name: "Data visualisation",
-          rating: 94,
-        },
-        {
-          name: "Strategy",
-          rating: 94,
-        },
-      ],
-      tools: [
-        {
-          name: "React",
-          rating: 93,
-        },
-        {
-          name: "Next.js",
-          rating: 93,
-        },
-        {
-          name: "Angular",
-          rating: 93,
-        },
-        {
-          name: "JavaScript",
-          rating: 92,
-        },
-        {
-          name: "TypeScript",
-          rating: 81,
-        },
-        {
-          name: "Git",
-          rating: 72,
-        },
-      ],
-      zones: [
-        {
-          startName: "Website",
-          endName: "App (SAAS)",
-          start: 58,
-          end: 0,
-          description:
-            "Through most of my career I have built web-software rather than websites.",
-        },
-        {
-          startName: "(UX) Designer",
-          endName: "Developer",
-          start: 8,
-          end: 18,
-          description:
-            "Designing functionality and interaction, then implementing.",
-        },
-        {
-          startName: "Detail",
-          endName: "Big picture, strategy",
-          start: 42,
-          end: 0,
-          description:
-            "I tend to be more concerned with what I am building than how.",
-        },
-      ],
-      languages: [
-        {
-          name: "Danish",
-          rating: 100,
-        },
-        {
-          name: "English",
-          rating: 94,
-        },
-        {
-          name: "German",
-          rating: 54,
-        },
-      ],
-      activities: [
-        "Play with my kids",
-        "Archery",
-        "Bicycling",
-        "Woodworking",
-        "Learning",
       ],
     };
   }

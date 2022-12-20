@@ -1,0 +1,23 @@
+<div class="section">
+  <div class="sectionHeader group">
+    <div
+      class="icon"
+      style="background-image: url('/assets/images/lang.png')"
+    ></div>
+    <h2>Languages</h2>
+  </div>
+  <div>
+    <div class="column">
+      <div *ngFor="let language of languages" class="skill">
+        <p>{{ language.name }}</p>
+        <div class="skillBar">
+          <div
+            class="skillInner"
+            [style.background-color]="language.barColor"
+            [style.width]="language.rating + '%'"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
