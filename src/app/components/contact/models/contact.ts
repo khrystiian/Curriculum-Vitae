@@ -1,4 +1,10 @@
 export class Contact {
+  private readonly gitHub = "github";
+  private readonly email = "a.ciobanu19@mail.com";
+  private readonly address = "address";
+  private readonly phone = "phone";
+  private readonly linkedIn = "linkedin";
+
   private _label = "";
   public get label(): string {
     return this._label;
@@ -15,15 +21,17 @@ export class Contact {
   }
 
   public get iconSrc(): string | undefined {
-    if (this.label.includes("Github"))
+    const label = this.label.toLowerCase();
+
+    if (label.includes(this.gitHub))
       return `url('/assets/images/profile/github.png')`;
-    if (this.label.includes("a.ciobanu19@mail.com"))
+    if (label.includes(this.email))
       return `url('/assets/images/profile/email.png')`;
-    if (this.label.includes("Address"))
+    if (label.includes(this.address))
       return `url('/assets/images/profile/home.png')`;
-    if (this.label.includes("Linkedin"))
+    if (label.includes(this.linkedIn))
       return `url('/assets/images/profile/linkedin.png')`;
-    if (this.label.includes("Phone"))
+    if (label.includes(this.phone))
       return `url('/assets/images/profile/phone.png')`;
     return undefined;
   }

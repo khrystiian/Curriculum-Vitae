@@ -37,15 +37,11 @@
       "rating": 100
     },
     {
-      "name": "Git/Source Tree",
-      "rating": 95
-    },
-    {
-      "name": "Visual Studio",
+      "name": "Microsoft Azure",
       "rating": 100
     },
     {
-      "name": "Visual Studio Code",
+      "name": "Microservices",
       "rating": 100
     }
   ]

@@ -9,30 +9,30 @@
         " .Net",
         " Web API",
         " Angular",
-        " ElasticSearch",
+        " Elasticsearch",
         " SQL"
       ],
       "preview": [""]
     },
     {
       "title": "Chat Web App",
-      "description": "This project arouse from of my curiosity about how a chat application works. Implemented during my studies free-time, it was really enjoyable time spend because I learned a lot about how to use SinglaR.",
+      "description": "This project arouse from of my curiosity about how a chat application works. Implemented during my studies free-time, it was really enjoyable time spend because I learned a lot about how to use SignalR.",
       "link": "https://github.com/khrystiian/SignalrChat",
       "tools": ["C#", " .Net", " SignalR", " SQL"],
       "preview": [""]
     },
     {
       "title": "Train Ticket Web App",
-      "description": "Elasticsearch has been always a great approach to quickly retrieve data based on flexible queries. This project addresses a full search using autocomplete on the Stackoverflow database. It proved fast and efficient, with several tweaking options to optimise the query.",
+      "description": "Elasticsearch has been always a great approach to quickly retrieve data using flexible queries. This project addresses a full search using autocomplete on the Stackoverflow database. It proved fast and efficient, with several tweaking options to optimise the query.",
       "link": "https://github.com/khrystiian/Stackoverflow-search",
       "tools": [
         "C#",
         " .Net",
         " Web API",
         " Angular",
-        " ElasticSearch",
+        " Elasticsearch",
         " SQL",
-        "Maps"
+        " Maps"
       ],
       "preview": [""]
     },
@@ -45,7 +45,7 @@
     },
     {
       "title": "Personal Website",
-      "description": "A good practice exercising my passion for coding, and let the world know about it, was to make a copy of my Curriculum Vitae and deloy it live. Its completely front-end work, with JSON data. Design and styling are not my strong suits, but I am well aware that practice is the only way to overcome them.",
+      "description": "A good practice exercising my passion for coding, and let the world know about it, was to make a copy of my Curriculum Vitae and deloy it live. Its completely front-end work, with JSON data and it uses Firebase hosting. Design and styling are not my strong suits, but I am well aware that practice is the only way to overcome them.",
       "link": "https://github.com/khrystiian/Curriculum-Vitae",
       "tools": ["Angular", " JSON", " HTML", " CSS"],
       "preview": [""]

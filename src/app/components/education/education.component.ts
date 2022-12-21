@@ -15,7 +15,6 @@ export class EducationComponent implements OnInit {
 
   ngOnInit(): void {
     this.programmes = this.educationService.getAll();
-    console.log(this.programmes[0].finalProject);
   }
 
   public toggleShowAll() {
