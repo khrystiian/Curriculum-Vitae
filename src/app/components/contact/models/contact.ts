@@ -17,7 +17,7 @@ export class Contact {
   public get iconSrc(): string | undefined {
     if (this.label.includes("Github"))
       return `url('/assets/images/profile/github.png')`;
-    if (this.label.includes("Email"))
+    if (this.label.includes("a.ciobanu19@mail.com"))
       return `url('/assets/images/profile/email.png')`;
     if (this.label.includes("Address"))
       return `url('/assets/images/profile/home.png')`;
