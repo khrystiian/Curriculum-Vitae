@@ -1,22 +1,25 @@
 .sectionHeader {
   display: grid;
 
-  span {
-    display: flex;
-  }
-
   span,
   a {
+    display: flex;
+    align-items: center;
     font-size: 1em;
+    height: 4em;
   }
 
   .icon {
-    width: 4.2em;
-    height: 4.2em;
+    width: 3.2em;
+    height: 3.2em;
 
     &.linkIcon {
       background-size: 80%;
       background-repeat: no-repeat;
     }
+  }
+
+  h2 {
+    font-size: 1.8em;
   }
 }

@@ -1,63 +1,63 @@
 ﻿.skillBar {
-	border: 1px solid $link;
-	background-color: $link;
-	margin-bottom: 1.2em; 
-	border-radius: 20px;
-	overflow: hidden;
-	box-shadow: inset 0px 4px 9px -5px rgba(0, 0, 0, .8);
+  border: 1px solid $link;
+  background-color: $link;
+  margin-bottom: 1.2em;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: inset 0px 4px 9px -5px rgba(0, 0, 0, 0.8);
 }
 
 .skillInner {
-	background-color: #9de0ad;
-	height: .8em;
-	box-shadow: inset -40px 0px 56px -30px rgba(200, 255, 220, .8);
+  background-color: #9de0ad;
+  height: 0.8em;
+  box-shadow: inset -40px 0px 56px -30px rgba(200, 255, 220, 0.8);
 }
 
 .skillTag {
-	background-color: $green-bg;
-	border-radius: 50px;
-	font-size: 1.3em;
-	font-weight: 400;
-	padding: .4em 1em;
-	color: #fff;
-	display: inline-flex;
-	margin: .2em;
-	white-space: nowrap;
-	line-height: 1;
+  background-color: $blue-bg;
+  border-radius: 50px;
+  font-size: 1.3em;
+  font-weight: 400;
+  padding: 0.4em 1em;
+  color: #fff;
+  display: inline-flex;
+  margin: 0.2em;
+  white-space: nowrap;
+  line-height: 1;
 }
 
 .spectrums {
-	margin: 1em -2em 0;
+  margin: 1em -2em 0;
 }
 
 .spectrumDiv {
-	vertical-align: top;
-	display: inline-block;
-	padding: 2em;
-	width: 100%;
-	min-width: 100%;
+  vertical-align: top;
+  display: inline-block;
+  padding: 2em;
+  width: 100%;
+  min-width: 100%;
 }
 
 .spectrumCaption {
-	display: flex;
-	justify-content: space-between;
-	
-	p {
-		font-size: 14px;
-	}
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-size: 14px;
+  }
 }
 
 .focusInner {
-	background-color: #fd30a8;
-	height: .8em;
+  background-color: $progress-bar;
+  height: 0.8em;
 }
 
 /* ==========================================================================
    Over 460 width
    ========================================================================== */
 @media screen and (min-width: 460px) {
-	.spectrumDiv {
-		width: 50%;
-		min-width: 50%;
-	}
+  .spectrumDiv {
+    width: 50%;
+    min-width: 50%;
+  }
 }

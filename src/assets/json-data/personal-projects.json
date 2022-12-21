@@ -2,37 +2,51 @@
   "projects": [
     {
       "title": "Clean Architecture Pattern",
-      "description": "here comes description",
+      "description": "A nice way to discover new architectural patterns and stay updated is to constanly explore. This project implements the Clean Architecture Pattern, which has its foundation deep in SOLID Principles.it is a concept easy to understand which brings numerous advantages, specially for large scale applications.",
       "link": "https://github.com/khrystiian/Clean-architecture",
-      "tools": ["C#", ".Net", "Web API", "Angular", "ElasticSearch", "SQL"],
+      "tools": [
+        "C#",
+        " .Net",
+        " Web API",
+        " Angular",
+        " ElasticSearch",
+        " SQL"
+      ],
       "preview": [""]
     },
     {
       "title": "Chat Web App",
-      "description": "here comes description",
+      "description": "This project is born out of my curiosity of how a chat application works. Implemented during my studies free-time, was a really nice time spend as I got good knowlegdge in how SignalR can be used.",
       "link": "https://github.com/khrystiian/SignalrChat",
-      "tools": ["C#", ".Net", "SignalR", "SQL"],
+      "tools": ["C#", " .Net", " SignalR", " SQL"],
       "preview": [""]
     },
     {
-      "title": "Stackoverflow Search",
-      "description": "here comes description",
+      "title": "Elasticsearch Web App",
+      "description": "Elasticsearch has been always a very good approach to quickly retrieve data based on flexible queries. This project addresses a full search using autocomplete on Stackoverflow database. It proved fast and efficient, with various tweaking options to optimize the query.",
       "link": "https://github.com/khrystiian/Stackoverflow-search",
-      "tools": ["C#", ".Net", "Web API", "Angular", "ElasticSearch", "SQL"],
+      "tools": [
+        "C#",
+        " .Net",
+        " Web API",
+        " Angular",
+        " ElasticSearch",
+        " SQL"
+      ],
       "preview": [""]
     },
     {
       "title": "Send messages using Rabbit MQ",
-      "description": "here comes description",
+      "description": "Rabbit MQ is the most widely deployed open source message broker. It was not going to be too long before I got my hands on another free-time project, where I was looking to explore how messages are sent, queued then received.",
       "link": "https://github.com/khrystiian/RabbitMq-",
-      "tools": ["C#", ".Net", "RabbitMQ", "SQL"],
+      "tools": ["Javascript", " C#", " .Net", " RabbitMQ", " SQL"],
       "preview": [""]
     },
     {
       "title": "Personal Website",
-      "description": "here comes description",
+      "description": "A good practice exercising my passion for coding, and let the world know about it was to make my own copy of my Curriculum Vitae and deloy it live. Its fully front-end work, with JSON data. Design and styling isn't really my strength, but I am fully aware that the only way to overcome that is practice.",
       "link": "https://github.com/khrystiian/Curriculum-Vitae",
-      "tools": ["Angular", "JSON", "HTML", "CSS"],
+      "tools": ["Angular", " JSON", " HTML", " CSS"],
       "preview": [""]
     }
   ]

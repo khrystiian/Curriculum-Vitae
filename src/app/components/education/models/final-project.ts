@@ -7,33 +7,34 @@ export class FinalProject {
     return this._link;
   }
 
-  private _collaboration = [];
+  private _collaboration = "";
 
-  public get collaboration(): string[] {
+  public get collaboration(): string {
     return this._collaboration;
   }
 
-  private _description: string[] = [];
+  private _description = "";
 
-  public get description(): string[] {
-    const list = this.currentPosition;
-    this._description = [];
-    Array.from(list).forEach((position: any) => {
-      this._description.push(position.description);
-    });
+  public get description(): string {
     return this._description;
   }
 
-  private get currentPosition(): any {
+  private get currentProject(): any {
     return JSONEducation.programmes.filter((programme) =>
-      this.equal(programme)
+      this.equal(programme.finalProject)
     );
   }
 
-  private equal(position: any): boolean {
+  private equal(project: any): boolean {
     return (
-      this._link === position.link &&
-      this._collaboration === position.collaboration
+      this._description === project.description &&
+      this._collaboration === project.collaboration
     );
+  }
+
+  constructor($collaboration: string, $description: string, $link: string) {
+    this._collaboration = $collaboration;
+    this._description = $description;
+    this._link = $link;
   }
 }

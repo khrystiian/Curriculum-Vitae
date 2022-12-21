@@ -15,7 +15,6 @@ export class PersonalProjectsComponent implements OnInit {
 
   ngOnInit(): void {
     this.projects = this.personalProjectService.getAll();
-    console.table(this.projects);
   }
 
   public toggleShowAll() {

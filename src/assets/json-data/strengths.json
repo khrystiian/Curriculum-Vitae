@@ -1,25 +1,39 @@
 {
   "strengths": [
     {
-      "startName": "Website",
-      "endName": "App (SAAS)",
-      "start": 58,
-      "end": 0,
-      "description": "Through most of my career I have built web-software rather than websites."
-    },
-    {
-      "startName": "(UX) Designer",
-      "endName": "Developer",
+      "startName": "SOLID Principle",
+      "endName": "Strategy/Design",
       "start": 8,
       "end": 18,
-      "description": "Designing functionality and interaction, then implementing."
+      "description": "Through most of my career I have always been keen to flexiblility and easy to maintain software."
     },
     {
-      "startName": "Detail",
-      "endName": "Big picture, strategy",
-      "start": 42,
-      "end": 0,
-      "description": "I tend to be more concerned with what I am building than how."
+      "startName": "Web API",
+      "endName": "Rest API",
+      "start": 4,
+      "end": 8,
+      "description": "Working as full-stack developer its a must to be familiar with REST Web API."
+    },
+    {
+      "startName": "Microsoft Azure",
+      "endName": "Application management",
+      "start": 18,
+      "end": 37,
+      "description": "Something I strive towards to. I enjoy every occasion to enrich my knowlege in this matter."
+    },
+    {
+      "startName": "Git",
+      "endName": "Version control",
+      "start": 4,
+      "end": 3,
+      "description": "Through most of my career I have always always taking advantage of its flexibility and capability for non-linear workflows."
+    },
+    {
+      "startName": "CI/CD",
+      "endName": "Good practices",
+      "start": 10,
+      "end": 9,
+      "description": "I have always enjoyed an evironment where tracking and solving issues early in development is among top priorities."
     }
   ]
 }

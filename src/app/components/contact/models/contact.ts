@@ -15,21 +15,16 @@ export class Contact {
   }
 
   public get iconSrc(): string | undefined {
-    if (this.label.includes("Github")) {
-      return `url('/assets/images/github.png')`;
-    }
-    if (this.label.includes("Email")) {
-      return `url('/assets/images/email.png')`;
-    }
-    if (this.label.includes("Address")) {
-      return `url('/assets/images/address.png')`;
-    }
-    if (this.label.includes("Linkedin")) {
-      return `url('/assets/images/linkedin.png')`;
-    }
-    if (this.label.includes("phone number")) {
-      return `url('/assets/images/phone.png')`;
-    }
+    if (this.label.includes("Github"))
+      return `url('/assets/images/profile/github.png')`;
+    if (this.label.includes("Email"))
+      return `url('/assets/images/profile/email.png')`;
+    if (this.label.includes("Address"))
+      return `url('/assets/images/profile/home.png')`;
+    if (this.label.includes("Linkedin"))
+      return `url('/assets/images/profile/linkedin.png')`;
+    if (this.label.includes("Phone"))
+      return `url('/assets/images/profile/phone.png')`;
     return undefined;
   }
 

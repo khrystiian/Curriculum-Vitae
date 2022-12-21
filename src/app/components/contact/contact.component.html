@@ -3,7 +3,7 @@
     <ng-container *ngIf="!contact.hasLink; else contactWithLink">
       <span>
         <div
-          class="icon raised"
+          class="icon linkIcon raised"
           [ngStyle]="{ 'background-image': contact.iconSrc }"
         ></div>
         <h2>{{ contact.ref }}</h2>

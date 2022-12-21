@@ -1,0 +1,52 @@
+{
+  "skills": [
+    {
+      "name": "C#",
+      "rating": 80
+    },
+    {
+      "name": ".Net",
+      "rating": 80
+    },
+    {
+      "name": "MSSQL",
+      "rating": 75
+    },
+    {
+      "name": "Angular",
+      "rating": 90
+    },
+    {
+      "name": "HTML/CSS",
+      "rating": 70
+    },
+    {
+      "name": "Postman",
+      "rating": 100
+    },
+    {
+      "name": "Web API",
+      "rating": 90
+    },
+    {
+      "name": "JSON/XML",
+      "rating": 100
+    },
+    {
+      "name": "Testing/Jest",
+      "rating": 100
+    },
+    {
+      "name": "Git/Source Tree",
+      "rating": 95
+    },
+    {
+      "name": "Visual Studio",
+      "rating": 100
+    },
+    {
+      "name": "Visual Studio Code",
+      "rating": 100
+    }
+  ]
+}

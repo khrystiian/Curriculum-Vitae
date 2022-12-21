@@ -5,7 +5,7 @@ import { Injectable } from "@angular/core";
 })
 export class CalculateColorService {
   private readonly primaryColor = { red: 118, green: 224, blue: 194 };
-  private readonly secondaryColor = { red: 37, green: 112, blue: 126 };
+  private readonly secondaryColor = { red: 8, green: 134, blue: 32 };
 
   public calculateColor(percentage: number) {
     const rValue = Math.round(this.getRGBValue(percentage, RGBColor.Red));

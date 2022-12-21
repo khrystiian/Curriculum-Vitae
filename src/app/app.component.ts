@@ -1,21 +1,17 @@
 import { Component, OnInit } from "@angular/core";
-
-import { ProfileService } from "./services/profile.service";
+import { Contact } from "./components/contact/models/contact";
+import { ContactService } from "./services/contact/contact.service";
 
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
 })
 export class AppComponent implements OnInit {
-  profile: any;
+  public contacts: Contact[] = [];
 
-  constructor(private profileService: ProfileService) {}
+  constructor(private contactService: ContactService) {}
 
   ngOnInit() {
-    this.profile = this.profileService.getProfile();
-
-    // draw all map polygons and markers
-    // header image?
-    // print stylesheet
+    this.contacts = this.contactService.getAll();
   }
 }

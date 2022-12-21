@@ -25,7 +25,7 @@ export class Programme {
     return this._country;
   }
 
-  private _finalProject: FinalProject | null = null;
+  private _finalProject: FinalProject | null;
   public get finalProject(): FinalProject | null {
     return this._finalProject;
   }
@@ -35,16 +35,18 @@ export class Programme {
     $school: string,
     $city: string,
     $period: string,
-    $finalProject: FinalProject
+    $country: string,
+    $finalProject: FinalProject | null
   ) {
     this._title = $title;
     this._school = $school;
     this._city = $city;
+    this._country = $country;
     this._period = $period;
     this._finalProject = $finalProject;
   }
 
   public hasFinalProject(): boolean {
-    return this._finalProject !== null;
+    return this.finalProject !== null;
   }
 }

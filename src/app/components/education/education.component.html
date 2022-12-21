@@ -23,16 +23,18 @@
   >
     <h3>{{ programme.title }}</h3>
     <h4>
-      <span>
-        {{ programme.school }}
-      </span>
-      , {{ programme.period }}, {{ programme.city }}, {{ programme.country }}
+      <span> {{ programme.school }}, </span>
+      {{ programme.city }}, {{ programme.country }}
     </h4>
-    <p *ngFor="let paragraph of programme.finalProject.description">
-      {{ paragraph }}
-    </p>
-    <div class="link-container" *ngFor="let link of programme.links">
-      <a [href]="link" target="_blank">{{ link }}</a>
-    </div>
+
+    <ng-container *ngIf="programme.hasFinalProject()">
+      <p class="collaboration">{{ programme.finalProject.collaboration }}</p>
+      <p>{{ programme.finalProject.description }}</p>
+      <div class="link-container">
+        <a [href]="programme.finalProject.link" target="_blank">{{
+          programme.finalProject.link
+        }}</a>
+      </div>
+    </ng-container>
   </div>
 </ng-template>

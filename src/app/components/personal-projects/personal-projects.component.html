@@ -1,7 +1,7 @@
 <div class="section">
   <div class="sectionHeader">
     <div class="icon"></div>
-    <h2>Personal Projects</h2>
+    <h2>Free-time Projects</h2>
   </div>
   <ng-container *ngIf="!showAll; else showAllProjects">
     <ng-container *ngTemplateOutlet="showAvailableProjects"></ng-container>
@@ -23,16 +23,13 @@
   >
     <h3>{{ project.title }}</h3>
     <h4>
-      <span>
-        {{ project.tools }}
-      </span>
-      , {{ project.link }}, {{ project.city }}, {{ project.country }}
+      <span>{{ project.tools }}</span>
     </h4>
     <p>
-      {{ project.description }}
+      <a [href]="project.link" target="_blank">
+        {{ project.link }}
+      </a>
     </p>
-    <div class="link-container">
-      <a [href]="project.link" target="_blank">{{ project.link }}</a>
-    </div>
+    <p>{{ project.description }}</p>
   </div>
 </ng-template>
