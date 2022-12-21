@@ -6,7 +6,7 @@
       "link": "https://github.com/khrystiian/Clean-architecture",
       "tools": [
         "C#",
-        " .Net",
+        " .NET",
         " Web API",
         " Angular",
         " Elasticsearch",
@@ -18,7 +18,7 @@
       "title": "Chat Web App",
       "description": "This project arouse from of my curiosity about how a chat application works. Implemented during my studies free-time, it was really enjoyable time spend because I learned a lot about how to use SignalR.",
       "link": "https://github.com/khrystiian/SignalrChat",
-      "tools": ["C#", " .Net", " SignalR", " SQL"],
+      "tools": ["C#", " .NET", " SignalR", " SQL"],
       "preview": [""]
     },
     {
@@ -27,7 +27,7 @@
       "link": "https://github.com/khrystiian/Stackoverflow-search",
       "tools": [
         "C#",
-        " .Net",
+        " .NET",
         " Web API",
         " Angular",
         " Elasticsearch",
@@ -40,7 +40,7 @@
       "title": "Send messages using Rabbit MQ",
       "description": "Rabbit MQ is the most widely deployed open source message broker. It wouldn't be long before I got my hands on another free-time project, this time to investigate how messages are sent, queued then received.",
       "link": "https://github.com/khrystiian/RabbitMq-",
-      "tools": ["Javascript", " C#", " .Net", " RabbitMQ", " SQL"],
+      "tools": ["Javascript", " C#", " .NET", " RabbitMQ", " SQL"],
       "preview": [""]
     },
     {

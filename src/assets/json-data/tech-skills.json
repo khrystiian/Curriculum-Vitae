@@ -5,7 +5,7 @@
       "rating": 80
     },
     {
-      "name": ".Net",
+      "name": ".NET",
       "rating": 80
     },
     {
@@ -42,6 +42,14 @@
     },
     {
       "name": "Microservices",
+      "rating": 100
+    },
+    {
+      "name": "CI/CD",
+      "rating": 100
+    },
+    {
+      "name": "SOLID Principles",
       "rating": 100
     }
   ]
