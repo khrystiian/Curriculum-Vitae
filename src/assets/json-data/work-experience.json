@@ -7,7 +7,7 @@
       "period": "Sept 2019 - Present",
       "description": [
         "Full-stack software developer working with a large spectrum of tasks from altering MSSQL database to business logic, Web API, to fron-end logic and CSS styling design.",
-        "I am part of a Scrum team which uses Agile methodology to project management, and I contributed to some of the largest and most important features on the current company PIM solution."
+        "I am a member of a Scrum team that uses Agile methodology to project management, and I contributed to some of the largest and most important features on the current company PIM solution."
       ],
       "links": []
     },
@@ -17,7 +17,7 @@
       "companyWebsite": "https://www.treatsystems.com/",
       "period": "Jan 2019 - Mar 2019",
       "description": [
-        "I was part of a Scrum team that implemented from the scratch a comprehensive software solution for antimicrobial stewardship.",
+        "I was a member of a Scrum team that implemented from the ground up a comprehensive software solution for antimicrobial stewardship.",
         "During my time at Treat Systems, I worked with antimicrobial stewardship data collection and manipulation within an environment where requirements precision and error toleration were extremely strict."
       ]
     },
@@ -27,9 +27,9 @@
       "companyWebsite": "https://www.2operate.com/",
       "period": "Mar 2018 - Dec 2018",
       "description": [
-        "I was involved in two main projects:",
-        "Network Operation Center Email Collector (NOC): An application to collect mobile operator’s data, store and display it in responsive graphs, to detect data anomalies or misbehavior.",
-        "Manual and Automated Testing Strategy:  A full documented test strategy for the application above (NOC), and the company main product OSS suite 2solve, which included unit tests, integration tests and automated GUI tests."
+        "I worked on two major projects:",
+        "Network Operation Center Email Collector (NOC): An application that collects data from mobile operators, stores it and displays it in responsive graphs, to detect data anomalies or misbehavior.",
+        "Manual and Automated Testing Strategy:  A fully documented test strategy for the above-mentioned application(NOC), and the company main product OSS suite 2solve, which included unit tests, integration tests and automated GUI tests."
       ],
       "links": []
     },
@@ -39,7 +39,7 @@
       "company": "Betfray A/S",
       "period": "Aug 2017 - Oct 2017",
       "description": [
-        "At Betfray I worked on a social-betting platform for casual and dedicated bettors for implementing social and betting features."
+        "I worked on a social-betting platform for casual and dedicated bettors, where I implemented social and betting features."
       ],
       "links": []
     }

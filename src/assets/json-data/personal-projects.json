@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Clean Architecture Pattern",
-      "description": "A nice way to discover new architectural patterns and stay updated is to constanly explore. This project implements the Clean Architecture Pattern, which has its foundation deep in SOLID Principles.it is a concept easy to understand which brings numerous advantages, specially for large scale applications.",
+      "description": "Constant exploration is a great way to discover new architectural patterns and stay current. This project follows the Clean Architecture Pattern, which has its foundation deep in SOLID Principles. It is a simple concept with numerous benefits, particulary for large scale applications.",
       "link": "https://github.com/khrystiian/Clean-architecture",
       "tools": [
         "C#",
@@ -16,14 +16,14 @@
     },
     {
       "title": "Chat Web App",
-      "description": "This project is born out of my curiosity of how a chat application works. Implemented during my studies free-time, was a really nice time spend as I got good knowlegdge in how SignalR can be used.",
+      "description": "This project arouse from of my curiosity about how a chat application works. Implemented during my studies free-time, it was really enjoyable time spend because I learned a lot about how to use SinglaR.",
       "link": "https://github.com/khrystiian/SignalrChat",
       "tools": ["C#", " .Net", " SignalR", " SQL"],
       "preview": [""]
     },
     {
-      "title": "Elasticsearch Web App",
-      "description": "Elasticsearch has been always a very good approach to quickly retrieve data based on flexible queries. This project addresses a full search using autocomplete on Stackoverflow database. It proved fast and efficient, with various tweaking options to optimize the query.",
+      "title": "Train Ticket Web App",
+      "description": "Elasticsearch has been always a great approach to quickly retrieve data based on flexible queries. This project addresses a full search using autocomplete on the Stackoverflow database. It proved fast and efficient, with several tweaking options to optimise the query.",
       "link": "https://github.com/khrystiian/Stackoverflow-search",
       "tools": [
         "C#",
@@ -31,20 +31,21 @@
         " Web API",
         " Angular",
         " ElasticSearch",
-        " SQL"
+        " SQL",
+        "Maps"
       ],
       "preview": [""]
     },
     {
       "title": "Send messages using Rabbit MQ",
-      "description": "Rabbit MQ is the most widely deployed open source message broker. It was not going to be too long before I got my hands on another free-time project, where I was looking to explore how messages are sent, queued then received.",
+      "description": "Rabbit MQ is the most widely deployed open source message broker. It wouldn't be long before I got my hands on another free-time project, this time to investigate how messages are sent, queued then received.",
       "link": "https://github.com/khrystiian/RabbitMq-",
       "tools": ["Javascript", " C#", " .Net", " RabbitMQ", " SQL"],
       "preview": [""]
     },
     {
       "title": "Personal Website",
-      "description": "A good practice exercising my passion for coding, and let the world know about it was to make my own copy of my Curriculum Vitae and deloy it live. Its fully front-end work, with JSON data. Design and styling isn't really my strength, but I am fully aware that the only way to overcome that is practice.",
+      "description": "A good practice exercising my passion for coding, and let the world know about it, was to make a copy of my Curriculum Vitae and deloy it live. Its completely front-end work, with JSON data. Design and styling are not my strong suits, but I am well aware that practice is the only way to overcome them.",
       "link": "https://github.com/khrystiian/Curriculum-Vitae",
       "tools": ["Angular", " JSON", " HTML", " CSS"],
       "preview": [""]

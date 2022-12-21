@@ -12,28 +12,28 @@
       "endName": "Rest API",
       "start": 4,
       "end": 8,
-      "description": "Working as full-stack developer its a must to be familiar with REST Web API."
+      "description": "Working as full-stack developer requires to be familiar with REST Web API."
     },
     {
       "startName": "Microsoft Azure",
       "endName": "Application management",
       "start": 18,
       "end": 37,
-      "description": "Something I strive towards to. I enjoy every occasion to enrich my knowlege in this matter."
+      "description": "That is something I strive for. I take joy from any opportunity to expand my knowledge in this area."
     },
     {
       "startName": "Git",
       "endName": "Version control",
       "start": 4,
       "end": 3,
-      "description": "Through most of my career I have always always taking advantage of its flexibility and capability for non-linear workflows."
+      "description": "For the majority of my career, I have taken advantage of its flexibility and capability for non-linear workflows."
     },
     {
       "startName": "CI/CD",
       "endName": "Good practices",
       "start": 10,
       "end": 9,
-      "description": "I have always enjoyed an evironment where tracking and solving issues early in development is among top priorities."
+      "description": "I've always preferred working in an environment where tracking and resolving issues early in the development process is a top priority."
     }
   ]
 }
