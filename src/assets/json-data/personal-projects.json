@@ -16,7 +16,7 @@
     },
     {
       "title": "Chat Web App",
-      "description": "This project arouse from of my curiosity about how a chat application works. Implemented during my studies free-time, it was really enjoyable time spend because I learned a lot about how to use SignalR.",
+      "description": "This project arouse from of my curiosity about how a chat application works. Implemented during my studies free-time, it was really enjoyable time spent because I learned a lot about how to use SignalR.",
       "link": "https://github.com/khrystiian/SignalrChat",
       "tools": ["C#", " .NET", " SignalR", " SQL"],
       "preview": [""]

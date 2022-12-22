@@ -29,7 +29,7 @@
       "description": [
         "I worked on two major projects:",
         "Network Operation Center Email Collector (NOC): An application that collects data from mobile operators, stores it and displays it in responsive graphs, to detect data anomalies or misbehavior.",
-        "Manual and Automated Testing Strategy:  A fully documented test strategy for the above-mentioned application(NOC), and the company main product OSS suite 2solve, which included unit tests, integration tests and automated GUI tests."
+        "Manual and Automated Testing Strategy:  A fully documented test strategy for the above-mentioned application(NOC), and the company main product 'OSS Suite 2solve', which included unit tests, integration tests and automated GUI tests."
       ],
       "links": []
     },

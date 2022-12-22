@@ -9,7 +9,7 @@
       "rating": 80
     },
     {
-      "name": "MSSQL",
+      "name": "SQL",
       "rating": 75
     },
     {
@@ -33,7 +33,7 @@
       "rating": 100
     },
     {
-      "name": "Microsoft Azure",
+      "name": "Azure DevOps",
       "rating": 100
     },
     {
@@ -41,7 +41,7 @@
       "rating": 100
     },
     {
-      "name": "CI/CD",
+      "name": "CI/CD pipelines",
       "rating": 100
     },
     {
