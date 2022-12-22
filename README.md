@@ -20,3 +20,7 @@ Run ng e2e to execute the end-to-end tests via Protractor.
 
 Further help
 To get more help on the Angular CLI use ng help or go check out the Angular CLI README.
+
+Visit at:
+https://ciobanu-andrei-cv.firebaseapp.com/
+https://ciobanu-andrei-cv.web.app/
