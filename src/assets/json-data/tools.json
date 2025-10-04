@@ -1,6 +1,30 @@
 {
   "tools": [
     {
+      "name": "SAP BAS",
+      "rating": 100
+    },
+    {
+      "name": "SAP BTP Cockpit",
+      "rating": 100
+    },
+    {
+      "name": "Cloud Foundry",
+      "rating": 80
+    },
+    {
+      "name": "SAP CPI",
+      "rating": 100
+    },
+    {
+      "name": "SAP BTP Solution Diagram",
+      "rating": 100
+    },
+    {
+      "name": "Snyk SCA/SAST",
+      "rating": 100
+    },
+    {
       "name": "Visual Studio",
       "rating": 100
     },

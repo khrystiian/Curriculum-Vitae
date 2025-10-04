@@ -4,6 +4,7 @@ export class Contact {
   private readonly address = "address";
   private readonly phone = "phone";
   private readonly linkedIn = "linkedin";
+  private readonly curriculumVitae = "curriculum vitae";
 
   private _label = "";
   public get label(): string {
@@ -21,18 +22,22 @@ export class Contact {
   }
 
   public get iconSrc(): string | undefined {
-    const label = this.label.toLowerCase();
+  const normalizedLabel = this.label.toLowerCase();
 
-    if (label.includes(this.gitHub))
-      return `url('/assets/images/profile/github.png')`;
-    if (label.includes(this.email))
-      return `url('/assets/images/profile/email.png')`;
-    if (label.includes(this.address))
-      return `url('/assets/images/profile/home.png')`;
-    if (label.includes(this.linkedIn))
-      return `url('/assets/images/profile/linkedin.png')`;
-    if (label.includes(this.phone))
-      return `url('/assets/images/profile/phone.png')`;
+  const iconMap: { [key: string]: string } = {
+    [this.gitHub]: 'github.png',
+    [this.email]: 'email.png',
+    [this.address]: 'home.png',
+    [this.linkedIn]: 'linkedin.png',
+    [this.phone]: 'phone.png',
+    [this.curriculumVitae]: 'file.png'
+  };
+
+  for (const key in iconMap) {
+    if (normalizedLabel.includes(key.toLowerCase())) {
+      return `url('/assets/images/profile/${iconMap[key]}')`;
+    }
+  }
     return undefined;
   }
 

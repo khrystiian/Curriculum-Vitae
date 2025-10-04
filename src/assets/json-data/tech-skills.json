@@ -1,6 +1,50 @@
 {
   "skills": [
     {
+      "name": "SAP Fiori",
+      "rating": 80
+    },
+    {
+      "name": "SAP UI5",
+      "rating": 95
+    },
+    {
+      "name": "SAP CAP",
+      "rating": 95
+    },
+    {
+      "name": "QUnit/Opa5/Jest",
+      "rating": 95
+    },
+    {
+      "name": "SAP CPI",
+      "rating": 60
+    },
+    {
+      "name": "SAP S/4HANA",
+      "rating": 65
+    },
+    {
+      "name": "SAP BTP Admin",
+      "rating": 80
+    },
+    {
+      "name": "Authentication and Security",
+      "rating": 80
+    },
+    {
+      "name": "SAP Master Data Business Rules",
+      "rating": 60
+    },
+    {
+      "name": "OData",
+      "rating": 100
+    },
+    {
+      "name": "On-Prem and Cloud Bridging",
+      "rating": 100
+    },
+    {
       "name": "C#",
       "rating": 80
     },
@@ -13,24 +57,12 @@
       "rating": 75
     },
     {
-      "name": "Angular",
+      "name": "TypeScript/Angular",
       "rating": 90
     },
     {
       "name": "HTML/CSS",
       "rating": 70
-    },
-    {
-      "name": "Web API",
-      "rating": 90
-    },
-    {
-      "name": "JSON/XML",
-      "rating": 100
-    },
-    {
-      "name": "Testing/Jest",
-      "rating": 100
     },
     {
       "name": "Azure DevOps",

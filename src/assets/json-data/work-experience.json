@@ -1,13 +1,25 @@
 {
   "positions": [
+     {
+      "title": "Product Architect",
+      "company": "Novo Nordisk",
+      "companyWebsite": "https://www.novonordisk.com/",
+      "period": "March 2023 - Present",
+      "description": [
+        " I started as a UI5 developer for implementing a GxP digital solution for handling certificates. ", 
+        "Quickly advanced to a senior role, leading UI5 and CAP applications and with a constant self-improvement mindset, I managed to grasp Novo Nordisk’s complex systems such as LIMS and VaultRIM with ease. I was developing end-to-end applications on SAP BTP, while also designing, articulating, and implementing architectural patterns across complex on-prem system integrations.",
+        "I was later appointed Product Architect with responsibilies around people, process, and technology ensuring quality across the product lifecycle."
+      ],
+      "links": []
+    },
     {
       "title": "Full-stack software developer",
       "company": "Perfion A/S",
-      "companyWebsite": "https://www.perfion.com/",
-      "period": "Sept 2019 - Present",
+      "companyWebsite": "https://perfion.boyum-solutions.com/",
+      "period": "Sept 2019 - Feb 2023",
       "description": [
-        "Full-stack software developer working with a large spectrum of tasks from altering the database to business logic, Web API, to front-end logic and CSS styling design.",
-        "I am a member of a Scrum team that uses Agile methodology to project management, and I contributed to some of the largest and most important features on the company current PIM solution."
+        "Full-stack software developer working across the entire development lifecycle—from SQL database design and backend logic in .NET/C# to building dynamic front-end interfaces using Angular and TypeScript. I also applied HTML and CSS to craft responsive, user-friendly designs.",
+        "As part of a Scrum team practicing Agile methodology, I’ve contributed to some of the most critical features in the company’s core PIM solution, driving both functionality and visual improvements."
       ],
       "links": []
     },
@@ -29,7 +41,8 @@
       "description": [
         "I worked on two major projects:",
         "Network Operation Center Email Collector (NOC): An application that collects data from mobile operators, stores it and displays it in responsive graphs, to detect data anomalies or misbehavior.",
-        "Manual and Automated Testing Strategy:  A fully documented test strategy for the above-mentioned application(NOC), and the company main product 'OSS Suite 2solve', which included unit tests, integration tests and automated GUI tests."
+        "Manual and Automated Testing Strategy:  A fully documented test strategy for the above-mentioned application(NOC), and the company main product 'OSS Suite 2solve', which included unit tests, integration tests and automated GUI tests.",
+        "The projects were highly complex, involving multiple third-party systems and APIs, and required a deep understanding of networking concepts and protocols. I worked with technologies such as Java, Spring Boot and various testing frameworks."
       ],
       "links": []
     },
@@ -39,7 +52,7 @@
       "company": "Betfray A/S",
       "period": "Aug 2017 - Oct 2017",
       "description": [
-        "I worked on a social-betting platform for casual and dedicated bettors, where I implemented social and betting features."
+        "I worked on a social-betting platform for casual and dedicated bettors, where I implemented social and betting features, using .NET/C# and SQL Server as backend technologies, and Angular and TypeScript for the front-end."
       ],
       "links": []
     }

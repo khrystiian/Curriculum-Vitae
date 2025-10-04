@@ -24,6 +24,11 @@
       "label": "Github",
       "ref": "https://github.com/khrystiian",
       "hasLink": true
+    },
+    {
+      "label": "Curriculum Vitae",
+      "ref": "./assets/files/preview-cv.pdf",
+      "hasLink": true
     }
   ]
 }

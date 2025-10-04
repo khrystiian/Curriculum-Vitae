@@ -1,6 +1,41 @@
 {
   "strengths": [
     {
+      "startName": "SAP BTP Platform ",
+      "endName": "Subaccount/Destination/User Role Admin",
+      "start": 4,
+      "end": 8,
+      "description": "The role of Product Architect for BTP applications demands deep expertise in the SAP BTP platform and its full range of capabilities."
+   },
+   {
+      "startName": "SAP UI5/CAP",
+      "endName": "BTP developer",
+      "start": 4,
+      "end": 8,
+      "description": "I believe that those who can implement are best equipped to design and architect effective solutions."
+   },
+   {
+      "startName": "Authentication and Security",
+      "endName": "OAuth2",
+      "start": 4,
+      "end": 8,
+      "description": "OAuth2 using x509 certificates and enable automatic secret key rotation in SAP BTP Cloud Foundry."
+    },
+    {
+      "startName": "On-Prem Systems",
+      "endName": "Cloud Connector",
+      "start": 4,
+      "end": 8,
+      "description": "Digitized internal infrastructure to enable integration with multiple on-premise ERP systems via Cloud Connectors."
+    },
+    {
+      "startName": "GxP",
+      "endName": "Quality through built-in software",
+      "start": 4,
+      "end": 8,
+      "description": "Novo Nordisk is recognized for its exceptional standards in processes, practices, and technology—especially within the GxP framework."
+    },
+    {
       "startName": "SOLID Principles",
       "endName": "Strategy/Design",
       "start": 8,
@@ -15,11 +50,11 @@
       "description": "Working as full-stack developer requires to be familiar with Web API."
     },
     {
-      "startName": "Microsoft Azure",
-      "endName": "Application management",
-      "start": 18,
-      "end": 37,
-      "description": "Microsoft Azure is something I strive to work with. I take joy from any opportunity to expand my knowledge in this area."
+      "startName": "Monitoring and Alerts",
+      "endName": "Application monitoring",
+      "start": 8,
+      "end": 18,
+      "description": "Using tools like SAP BTP Logging to monitor applications."
     },
     {
       "startName": "Git",
@@ -31,8 +66,8 @@
     {
       "startName": "CI/CD pipelines",
       "endName": "Good practices",
-      "start": 10,
-      "end": 9,
+      "start": 3,
+      "end": 4,
       "description": "I've always preferred working in an environment where tracking and resolving issues early in the development process is a top priority."
     }
   ]

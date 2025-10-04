@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "title": "Clean Architecture Pattern",
+      "title": "Train Ticket Web - Clean Architecture Pattern",
       "description": "Constant exploration is a great way to discover new architectural patterns and stay current. This project follows the Clean Architecture Pattern, which has its foundation deep in SOLID Principles. It is a simple concept with numerous benefits, particulary for large scale applications.",
       "link": "https://github.com/khrystiian/Clean-architecture",
       "tools": [
@@ -22,7 +22,7 @@
       "preview": [""]
     },
     {
-      "title": "Train Ticket Web App",
+      "title": "Stackoverflow Search Engine App",
       "description": "Elasticsearch has been always a great approach to quickly retrieve data using flexible queries. This project addresses a full search using autocomplete on the Stackoverflow database. It proved fast and efficient, with several tweaking options to optimise the query.",
       "link": "https://github.com/khrystiian/Stackoverflow-search",
       "tools": [
