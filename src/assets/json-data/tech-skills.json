@@ -29,6 +29,10 @@
       "rating": 80
     },
     {
+      "name": "SAP Cloud Integration",
+      "rating": 80
+    },
+    {
       "name": "Authentication and Security",
       "rating": 80
     },
@@ -39,6 +43,10 @@
     {
       "name": "OData",
       "rating": 100
+    },
+    {
+      "name": "RESTful APIs",
+      "rating": 95
     },
     {
       "name": "On-Prem and Cloud Bridging",
@@ -75,6 +83,18 @@
     {
       "name": "CI/CD pipelines",
       "rating": 100
+    },
+    {
+      "name": "Agentic AI",
+      "rating": 85
+    },
+    {
+      "name": "Model Context Protocol (MCP)",
+      "rating": 80
+    },
+    {
+      "name": "Technical Governance",
+      "rating": 90
     },
     {
       "name": "SOLID Principles",

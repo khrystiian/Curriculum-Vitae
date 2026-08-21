@@ -1,67 +1,32 @@
 {
   "strengths": [
     {
-      "startName": "Agentic AI",
-      "endName": "Intelligent Workflows",
+      "startName": "Architecture & Strategy",
+      "endName": "Modular platforms and GxP governance",
       "start": 1,
       "end": 2,
-      "description": "Integrating agentic AI systems across the full software development lifecycle, from requirements definition and architectural design to everyday coding tasks and overall project oversight while maintaining full ownership over the outcome. The artifact you are currently reviewing was, in fact, built and deployed using these exact AI-enhanced processes."
+      "description": "Solution Architect for the Digital Certificate Solution, establishing CAP services as central orchestration engines and defining API-first integration strategies across Novo Nordisk ERP systems. I build quality, compliance, audit readiness, and validation-proof documentation into the architecture."
     },
     {
-      "startName": "SAP BTP Platform",
-      "endName": "Authoritative & Governance-Focused",
+      "startName": "SAP BTP & Full-Stack Development",
+      "endName": "CAP, UI5 and secure integrations",
       "start": 4,
       "end": 8,
-      "description": "As a BTP Platform administrator, I maintain full administrative control over production sub-accounts, exercising user role management and overseeing the end-to-end integrity of our deployment processes."
-   },
-   {
-      "startName": "SAP UI5/CAP",
-      "endName": "BTP developer",
-      "start": 4,
-      "end": 8,
-      "description": "I believe that those who can implement are best equipped to design and architect effective solutions."
+      "description": "Hands-on SAP BTP administration across sub-accounts, user roles, Cloud Connector configuration, and security hardening. Full-stack CAP and UI5 implementation supports pragmatic architecture built on RESTful services, OData, and secure system-to-system integrations."
    },
     {
-      "startName": "On-Prem Systems",
-      "endName": "Cloud Connector",
+      "startName": "Emerging Tech & Agentic AI",
+      "endName": "MCP and intelligent workflows",
       "start": 4,
       "end": 8,
-      "description": "Digitized internal infrastructure to enable integration with multiple on-premise ERP systems via Cloud Connectors."
+      "description": "Designing and demonstrating Model Context Protocol capabilities that expose SAP BTP and CAP APIs as tools for AI agents. I explore agent loops, tool-based reasoning, and AI-assisted development while helping teams adopt responsible prompt engineering and agent governance."
     },
     {
-      "startName": "GxP",
-      "endName": "Quality through built-in software",
+      "startName": "Delivery & Operational Excellence",
+      "endName": "Reliable releases and technical mentorship",
       "start": 4,
       "end": 8,
-      "description": "Novo Nordisk is recognized for its exceptional standards in processes, practices, and technology—especially within the GxP framework."
-    },
-    {
-      "startName": "SOLID Principles",
-      "endName": "Strategy/Design",
-      "start": 8,
-      "end": 18,
-      "description": "Throughout most of my career I have always been keen to flexiblility and easy to maintain software."
-    },
-    {
-      "startName": "Web API",
-      "endName": "Rest API",
-      "start": 4,
-      "end": 8,
-      "description": "Working as full-stack developer requires to be familiar with Web API."
-    },
-    {
-      "startName": "Git",
-      "endName": "Version control",
-      "start": 4,
-      "end": 3,
-      "description": "For the majority of my career, I have taken advantage of its flexibility and capability for non-linear workflows."
-    },
-    {
-      "startName": "CI/CD pipelines",
-      "endName": "Good practices",
-      "start": 3,
-      "end": 4,
-      "description": "I've always preferred working in an environment where tracking and resolving issues early in the development process is a top priority."
+      "description": "Governing CI/CD pipelines, release management, vulnerability remediation, log reviews, troubleshooting, and production readiness across TEST and PROD environments. I mentor developers on CAP, OData, UI5, and testing while contributing to SAP BTP architecture discussions."
     }
   ]
 }

@@ -6,10 +6,12 @@
       "companyWebsite": "https://www.novonordisk.com/",
       "period": "March 2023 - Present",
       "description": [
-        "I began my journey as a developer using UI5, CAP and SAP BTP while being involved in the development of a certificate solution.", 
-        "I rapidly advanced to a senior role. The pair: continuous self-improvement mindset and a strong result delivery focus, allowed me to quickly grasp Novo Nordisk’s complex ERP systems and their integrations.",
-        "As I transitioned into the role of Product Architect, my focus expanded from technical implementation to the strategic triad of people, process, and technology. While still a technical member at heart, I now have developed a proven capacity to break massive, ambiguous challenges into clear, actionable architectural components.",
-        "Today, my main objective is to bridge the gap between high-level requirements and high-impact results, fostering teams that deliver quality while consistently refining the processes. This makes me feel free to focus on the big picture while exercise what the technical passion for software development."
+        "I began at Novo Nordisk as a developer working with UI5, CAP, and SAP BTP on a digital certificate solution. By combining continuous self-improvement with a strong focus on delivery, I developed a practical understanding of the organisation's complex ERP systems and their integrations.",
+        "As I progressed into a senior developer role, I took on broader technical ownership and became increasingly involved in solution design, integration decisions, and the quality of delivery across the product lifecycle.",
+        "In my current role as Product Architect, I serve as the primary architectural owner for the Digital Certificate Solution, guiding its evolution across SAP BTP, CAP, UI5, Novo Nordisk ERP systems, and supporting enterprise services. I established a modular architecture vision in which CAP services act as the central orchestration layer for integrations and business logic.",
+        "I shape the architectural direction of roadmap initiatives such as master data administration, certificate generation pipelines, and dataset expansions. I represent the architectural runway during PI planning, balancing business features with technical debt reduction, security improvements, UI5 modernization, and GxP governance.",
+        "I am also pioneering Model Context Protocol adoption within the SAP landscape by exposing enterprise CAP APIs as AI-consumable tools for agentic workflows. I design practical prototypes, including certificate retrieval assistants and automated workflow triggers, and share this work through internal talks on MCP architecture and tool-based reasoning.",
+        "Alongside architecture leadership, I manage release activities, pipeline governance, security hardening, vulnerability remediation, application log reviews, and environment readiness across TEST and PROD. I coordinate with Product Owners, developers, SAP Basis, and business stakeholders, while mentoring developers on CAP, OData, UI5, testing strategies, and maintainable software design."
       ],
       "links": []
     },
